@@ -15,7 +15,7 @@ public class ClientTest {
     @Test
     public void shouldStorePropertiesWhenCreated() {
         //region when
-        Client sut = new Client(ID_STUB, "dummy client name 222");
+        Client sut = new Client(ID_STUB, "dummy client name");
         //endregion
 
         //region then
